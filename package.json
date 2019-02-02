@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.35"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "yarn build:self",
+    "build:self": "vuepress build docs -d dist"
+  }
+}
