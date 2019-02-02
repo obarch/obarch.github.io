@@ -4,7 +4,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "yarn build:self",
-    "build:self": "vuepress build docs -d dist"
+    "build": "yarn build:self && yarn build:obarch4j:livedoc",
+    "build:self": "vuepress build docs -d dist",
+    "build:obarch4j:livedoc": "cd obarch4j/livedoc && vuepress build docs -d ../../dist/obarch4j/livedoc"
   }
 }
