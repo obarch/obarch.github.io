@@ -4,3 +4,6 @@
 [submodule "obarch4ts"]
 	path = obarch4ts
 	url = https://github.com/obarch/obarch4ts.git
+[submodule "obarch-workbench"]
+	path = obarch-workbench
+	url = https://github.com/obarch/obarch-workbench.git
